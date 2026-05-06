@@ -2,7 +2,7 @@ def print_greeting():
     print("Welcome to Venancio's Tax Generator")
   
 def get_details():  # Get the employee details
-    full_name = input("Please, introduce your first name: ")
+    full_name = input("Please, introduce your full name: ")
     organisation = input("Please indicate the name of your company: ")
     return full_name, organisation
  
